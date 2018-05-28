@@ -9,6 +9,7 @@ locale-gen
 ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
 
 usermod -s /usr/bin/bash root
+gpasswd -a root audio
 cp -aT /etc/skel/ /root/
 chmod 700 /root
 
@@ -22,3 +23,11 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 systemctl enable pacman-init.service choose-mirror.service sshd.service
 systemctl set-default multi-user.target
+
+rm -rf /usr/bin/vi && ln -s /usr/bin/vim /usr/bin/vi
+useradd -m -G users,audio,wheel -s /bin/bash ash
+echo ash:sad1 | chpasswd
+echo root:sad1 | chpasswd
+echo "root ALL=(ALL) ALL" > /etc/sudoers
+echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
