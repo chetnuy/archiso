@@ -31,3 +31,9 @@
 [submodule "airootfs/etc/skel/.tmux/plugins/tpm"]
 	path = airootfs/etc/skel/.tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "airootfs/etc/skel/zim"]
+	path = airootfs/etc/skel/zim
+	url = https://gitlab.com/nevernew/zim.git
+[submodule "airootfs/etc/skel/script"]
+	path = airootfs/etc/skel/script
+	url = https://gitlab.com/nevernew/script.git
