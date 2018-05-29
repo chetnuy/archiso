@@ -28,3 +28,6 @@
 [submodule "airootfs/etc/skel/.tmux/plugins/tmux-sensible"]
 	path = airootfs/etc/skel/.tmux/plugins/tmux-sensible
 	url = https://git::@github.com/tmux-plugins/tmux-sensible
+[submodule "airootfs/etc/skel/.tmux/plugins/tpm"]
+	path = airootfs/etc/skel/.tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
