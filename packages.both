@@ -21,7 +21,7 @@ speedtest-cli
 iptraf-ng
 sysstat
 surfraw
-smblient
+smbclient
 chntpw
 terminus-font
 git
