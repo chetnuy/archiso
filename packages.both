@@ -11,9 +11,18 @@
 #firefox
 #xterm
 #i3-wm
+#pcmanfm
+#gnome-disk-utility
 rxvt-unicode
 #urxvt-perls
 
+yaourt
+speedtest-cli
+iptraf-ng
+sysstat
+surfraw
+smblient
+chntpw
 terminus-font
 git
 w3m
@@ -89,7 +98,6 @@ speedtouch
 sudo
 testdisk
 usb_modeswitch
-vim-minimal
 vpnc
 wget
 wireless_tools
