@@ -22,18 +22,3 @@
 [submodule "airootfs/etc/skel/.vim/plugged/vim-startify"]
 	path = airootfs/etc/skel/.vim/plugged/vim-startify
 	url = https://github.com/mhinz/vim-startify.git
-[submodule "airootfs/etc/skel/.tmux/plugins/tmux-color-solarized"]
-	path = airootfs/etc/skel/.tmux/plugins/tmux-color-solarized
-	url = https://git::@github.com/seebi/tmux-colors-solarized
-[submodule "airootfs/etc/skel/.tmux/plugins/tmux-sensible"]
-	path = airootfs/etc/skel/.tmux/plugins/tmux-sensible
-	url = https://git::@github.com/tmux-plugins/tmux-sensible
-[submodule "airootfs/etc/skel/.tmux/plugins/tpm"]
-	path = airootfs/etc/skel/.tmux/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm
-[submodule "airootfs/etc/skel/zim"]
-	path = airootfs/etc/skel/zim
-	url = https://gitlab.com/nevernew/zim.git
-[submodule "airootfs/etc/skel/script"]
-	path = airootfs/etc/skel/script
-	url = https://gitlab.com/nevernew/script.git

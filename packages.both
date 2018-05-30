@@ -8,7 +8,7 @@ dmenu
 ttf-droid
 xf86-video-vesa
 xorg-xinit
-firefox
+chromium
 xterm
 i3-wm
 pcmanfm
