@@ -1,0 +1,9 @@
+Add this line to /usb/sstr/menu.lst
+
+iftitle [if exist /linux/archlinux.iso] Ashiso
+set d=linux
+map /%d%/archlinux.iso (0xff)
+map --hook
+kernel (0xff)/arch/boot/x86_64/vmlinuz iso-filename=/%d%/archlinux.iso 
+initrd (0xff)/arch/boot/intel_ucode.img (0xff)/arch/boot/x86_64/archiso.img
+chainloader (0xff)

@@ -10,13 +10,12 @@ vconsole.conf
 change localtime
 usermod -s /bin/bash
 
+## 30.05.2018
+This images modify for STRELEC USB assembly. Change syslinux boot config
+
 
 ## Todo
-password for sshd
-add .bashrc
-add .local/ranger
-install yaourt
-install megatools
+disable speaker
+add user config like root
 
-...many-many
 

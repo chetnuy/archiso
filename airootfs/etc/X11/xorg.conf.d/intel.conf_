@@ -1,0 +1,5 @@
+Section "Device"
+	Option	"ShadowFB" "False"
+	Identifier	"Card0"
+	Driver	"vesa"
+EndSection
