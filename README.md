@@ -1,36 +1,37 @@
 My setting archiso operate scripts
 =====================================
 ## Install 
-Install mkarchiso
-https://projects.archlinux.org/archiso.git
-make program_install
+requery mkarchiso, arch-install-scripts (new version!)
 
 
+## Config files
+list packages:  
+packages.both  
 
+config dir:  
+airootfs/etc/  
+airootfs/etc/skel - home dir  
+
+after build script:  
+./airootfs/root/customize_airootfs.sh   
 
 ## Build
 
-sudo ./build -v
+sudo ./build.sh -v
 
-
+for rebuild:  
+edit build.sh and delete run_once  
 
 
 
 ## Add function
 
-locale.conf
-locale.gen
-vconsole.conf
-change localtime
-usermod -s /bin/bash
+locale.conf  
+locale.gen  
+vconsole.conf  
+change localtime  
+usermod -s /bin/bash  
 
-## 30.05.2018
-This images modify for STRELEC USB assembly. Change syslinux boot config
-
-
-## Todo
-disable speaker
-add user config like root
 
 
 ## Gentoo assembly

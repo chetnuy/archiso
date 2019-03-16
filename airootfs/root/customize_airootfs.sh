@@ -27,7 +27,7 @@ systemctl set-default multi-user.target
 
 ## install megatools
 cp /root/synctools/* /usr/bin/
-rm -rf synctools
+rm -rf /root/synctools
 
 rm -rf /usr/bin/vi && ln -s /usr/bin/vim /usr/bin/vi
 echo root:sad1 | chpasswd
