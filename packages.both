@@ -1,79 +1,73 @@
 #yaourt
-speedtest-cli
-iptraf-ng
-sysstat
-surfraw
-chntpw
-git
-w3m
-pass
-nmap
-tcpdump
+
+
+#monitoring
 lshw
 htop
-bash-completion
-ranger
-python-pip
+bind-tools
+net-tools
+speedtest-cli		
+iptraf-ng #TCP-connection
+sysstat
+tcpdump
+nmap
+dmraid # opiration of RAID
+gnu-netcat
+smartmontools #SMART monitoring
+
+#system
+dosfstools #mkfs.vfat
+ethtool
+exfat-utils
+f2fs-tools
+nfs-utils
+ntfs-3g
+gptfdisk #gpt backup
+hdparm #HDD change parametrs
+sdparm
+mtools #support MS-DOS disk
+
+
+#backup
+clonezilla
+parted
+partclone
+partimage
+rsync
+ddrescue
+fsarchiver
+testdisk #restore data
+
+chntpw  #reset windows password
+
+#app
+tmux
 vim
 unzip
 unrar
 mc
-tmux
-bind-tools
-net-tools
+bash-completion
+ranger
+python-pip
+w3m
+git
+pass
+arch-install-scripts #scripts for install arch(pcstrap,genfstab)
+wget
+lftp
+openssh
+refind-efi #efi jobs
 
 
-arch-install-scripts
-b43-fwcutter
+#requirements
+terminus-font	#for key layout
+
+#wifi
+dialog
+wifi-menu
+b43-fwcutter   # driver wifi-broad43xx
 broadcom-wl
 btrfs-progs
-clonezilla
-crda
-darkhttpd
-ddrescue
-dhclient
-dialog
-dmraid
-dnsmasq
-dnsutils
-dosfstools
-elinks
-ethtool
-exfat-utils
-f2fs-tools
-fsarchiver
-gnu-netcat
-gpm
-gptfdisk
-hdparm
-lftp
-linux-atm
-lsscsi
-mtools
-ndisc6
-nfs-utils
-nilfs-utils
-ntfs-3g
-ntp
-openconnect
-openssh
-openvpn
-partclone
-parted
-partimage
-ppp
-pptpclient
-refind-efi
-rp-pppoe
-rsync
-sdparm
-sg3_utils
-smartmontools
-testdisk
-usb_modeswitch
-vpnc
-wget
-wireless_tools
 wpa_actiond
-wvdial
-xl2tpd
+wireless_tools
+crda
