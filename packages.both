@@ -75,7 +75,6 @@ terminus-font
 
 #############wifi
 dialog
-wifi-menu
 #driver wifi-broad43xx
 b43-fwcutter   
 broadcom-wl
