@@ -17,7 +17,12 @@ after build script:
 
 ## Build
 
+```bash
+git clone https://chetnuy@githu^Ccom/chetnuy/archiso-ash archiso-ash
+cd archiso-ash  
+git submodule init && git submodule update  
 sudo ./build.sh -v
+```
 
 for rebuild:  
 edit build.sh and delete run_once  
