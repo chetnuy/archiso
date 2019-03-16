@@ -1,6 +1,20 @@
 My setting archiso operate scripts
 =====================================
-For gentoo system. See pacman.conf file
+## Install 
+Install mkarchiso
+https://projects.archlinux.org/archiso.git
+make program_install
+
+
+
+
+## Build
+
+sudo ./build -v
+
+
+
+
 
 ## Add function
 
@@ -17,5 +31,13 @@ This images modify for STRELEC USB assembly. Change syslinux boot config
 ## Todo
 disable speaker
 add user config like root
+
+
+## Gentoo assembly
+
+For gentoo system. See pacman.conf file
+
+Update key in system
+pacman -Syu
 
 

@@ -1,29 +1,9 @@
-xorg-server
-#alsa-utils
-#alsa-lib
-feh
-sxiv
-xorg-xrandr
-dmenu
-ttf-droid
-xf86-video-vesa
-xorg-xinit
-chromium
-xterm
-i3-wm
-pcmanfm
-#gnome-disk-utility
-rxvt-unicode
-urxvt-perls
-
 #yaourt
 speedtest-cli
 iptraf-ng
 sysstat
 surfraw
-#smbclient
 chntpw
-terminus-font
 git
 w3m
 pass
@@ -41,8 +21,7 @@ mc
 tmux
 bind-tools
 net-tools
-weechat
-mutt
+
 
 arch-install-scripts
 b43-fwcutter
@@ -66,11 +45,7 @@ fsarchiver
 gnu-netcat
 gpm
 gptfdisk
-grml-zsh-config
-grub
 hdparm
-ipw2100-fw
-ipw2200-fw
 lftp
 linux-atm
 lsscsi
@@ -94,8 +69,6 @@ rsync
 sdparm
 sg3_utils
 smartmontools
-speedtouch
-sudo
 testdisk
 usb_modeswitch
 vpnc
@@ -104,4 +77,3 @@ wireless_tools
 wpa_actiond
 wvdial
 xl2tpd
-zd1211-firmware
