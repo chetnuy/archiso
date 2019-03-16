@@ -25,10 +25,6 @@ echo "PermitRootLogin yes" > /etc/ssh/sshd_config
 systemctl enable pacman-init.service choose-mirror.service sshd.service
 systemctl set-default multi-user.target
 
-## install yaourt
-bash /root/yaourt.sh
-useradd -m -G users,wheel,audio -s /bin/bash yaourt
-
 ## install megatools
 cp /root/synctools/* /usr/bin/
 rm -rf synctools

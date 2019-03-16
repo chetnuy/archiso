@@ -41,3 +41,5 @@ Update key in system
 pacman -Syu
 
 
+## Not yaourt
+Need install base-devel, add user, and etc....
