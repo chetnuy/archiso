@@ -4,6 +4,10 @@
 
 # If not running interactively, don't do anything
 
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
+
 
 [[ $- != *i* ]] && return
 
@@ -13,7 +17,6 @@ HISTFILESIZE=15000
 HISTSIZE=15000
 EDITOR=vim
 export VISUAL="vim"
-BROWSER=/usr/bin/firefox
 ############# /Variables
 
 ############# Aliases
