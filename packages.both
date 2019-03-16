@@ -1,34 +1,41 @@
 #yaourt
 
 
-#monitoring
+######monitoring
 lshw
 htop
 bind-tools
 net-tools
 speedtest-cli		
-iptraf-ng #TCP-connection
+#TCP-connection
+iptraf-ng 
 sysstat
 tcpdump
 nmap
-dmraid # opiration of RAID
+#opiration of RAID
+dmraid 
 gnu-netcat
-smartmontools #SMART monitoring
+#SMART monitoring
+smartmontools 
 
-#system
-dosfstools #mkfs.vfat
+#########system
+# make mkfs.vfat
+dosfstools 
 ethtool
 exfat-utils
 f2fs-tools
 nfs-utils
 ntfs-3g
-gptfdisk #gpt backup
-hdparm #HDD change parametrs
+#gpt backup
+gptfdisk 
+#HDD change parametrs
+hdparm 
 sdparm
-mtools #support MS-DOS disk
+#support MS-DOS disk
+mtools 
 
 
-#backup
+###########backup
 clonezilla
 parted
 partclone
@@ -36,11 +43,12 @@ partimage
 rsync
 ddrescue
 fsarchiver
-testdisk #restore data
+#restore data
+testdisk 
+#reset windows password
+chntpw  
 
-chntpw  #reset windows password
-
-#app
+###########app
 tmux
 vim
 unzip
@@ -52,20 +60,24 @@ python-pip
 w3m
 git
 pass
-arch-install-scripts #scripts for install arch(pcstrap,genfstab)
+#scripts for install arch(pcstrap,genfstab)
+arch-install-scripts 
 wget
 lftp
 openssh
-refind-efi #efi jobs
+#efi jobs
+refind-efi 
 
 
-#requirements
-terminus-font	#for key layout
+###########requirements
+##for key layout
+terminus-font	
 
-#wifi
+#############wifi
 dialog
 wifi-menu
-b43-fwcutter   # driver wifi-broad43xx
+#driver wifi-broad43xx
+b43-fwcutter   
 broadcom-wl
 btrfs-progs
 wpa_actiond
