@@ -79,7 +79,6 @@ dialog
 b43-fwcutter   
 broadcom-wl
 btrfs-progs
-wpa_actiond
 wireless_tools
 crda
 reaver
