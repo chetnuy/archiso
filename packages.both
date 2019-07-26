@@ -74,6 +74,7 @@ refind-efi
 terminus-font	
 
 #############wifi
+wpa_supplicant
 dialog
 #driver wifi-broad43xx
 b43-fwcutter   
